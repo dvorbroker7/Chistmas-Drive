@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  font-size: 30px;
+  background-color: #CEDF9F;
+  display: block;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: #a1d6b2;
+  height: 150px;
+  margin: 0px;
+  border: 5px solid #E8B86D;
+  border-radius: 15px;
+}
+.header-container .header-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+.donate-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+  height: 25vh;
+}
+.donate-wrapper .donate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/Christmas-Ornament-900x600.jpg");
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.donate-wrapper .donate-container a:link {
+  text-decoration: none;
+}
+.donate-wrapper .donate-container a:visited {
+  text-decoration: none;
+}
+.donate-wrapper .donate-container a:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.donate-wrapper .donate-container .donate-link-container {
+  height: 150px;
+  width: 350px;
+  display: FLEX;
+  background: #E8B86D;
+  align-items: CENTER;
+  justify-content: CENTER;
+  border-radius: 10px;
+}
+.donate-wrapper .donate-container .donate-text {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.homepage-text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.homepage-text-wrapper .homepage-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 25px;
+  background-color: #F1F3C2;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.homepage-text-wrapper .homepage-text-header {
+  display: flex;
+  justify-content: center;
+}
+.homepage-text-wrapper .homepage-main-text {
+  margin: 10px 20px 50px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=styles.css.map */

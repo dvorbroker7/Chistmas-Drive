@@ -1,0 +1,115 @@
+// $zionsvilleGreen: rgb(0, 112, 0);
+$darkGreen: #a1d6b2;
+$background: #CEDF9F;
+$accent: #F1F3C2;
+$primaryColor: #E8B86D;;
+
+body {
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    // width: 100%;
+    height: 100vh;
+    line-height: 1.5;
+    font-size: 30px;
+    background-color: $background;
+    display: block;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: $darkGreen;
+    height: 150px;
+    margin: 0px;
+    border: 5px solid $primaryColor;
+    border-radius: 15px;
+
+
+    .header-text {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+}
+
+.donate-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    height: 25vh;
+
+    .donate-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: $accent;
+        background-image: url("./images/Christmas-Ornament-900x600.jpg");
+        width: 95%;
+        border-radius: 10px;
+        margin-top: 20px;
+
+        transition: all .2s ease-in-out; 
+
+        a:link { 
+            text-decoration: none; 
+        } 
+        a:visited { 
+            text-decoration: none; 
+        } 
+        a:hover { 
+            text-decoration: none; 
+            transform: scale(1.1); 
+        } 
+        // a:active { 
+        //     text-decoration: none; 
+        // }
+
+        .donate-link-container {
+            height: 150px;
+            width: 350px;
+            display: FLEX;
+            background: $primaryColor;
+            align-items: CENTER;
+            justify-content: CENTER;
+            border-radius: 10px;
+        }
+        .donate-text {
+            color: black;
+            font-size: 35px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}
+
+.homepage-text-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .homepage-text-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 25px;
+        background-color: $accent;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+    .homepage-text-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .homepage-main-text {
+        margin:  10px 20px 50px;
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
