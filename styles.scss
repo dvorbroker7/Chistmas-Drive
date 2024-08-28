@@ -2,7 +2,11 @@
 $darkGreen: #a1d6b2;
 $background: #CEDF9F;
 $accent: #F1F3C2;
-$primaryColor: #E8B86D;;
+$primaryColor: #E8B86D;
+
+$redDropWhite: #ffffff;
+$redDropRed: #a31418;
+$redDropPink: #ffbfd0;
 
 body {
     background-color: white;
@@ -106,6 +110,29 @@ body {
 
     .homepage-main-text {
         margin:  10px 20px 50px;
+
+        a { 
+            text-decoration: none; 
+            transition: all .2s ease-in-out; 
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+
+        .homepage-reddrop {
+            // background-color: $primaryColor;
+
+            text-decoration: none;
+            font-weight: 800px;
+            font-size: 55px;
+           &.red-link {
+               color: $redDropRed;
+           }
+           &.drop-link {
+            color: $redDropPink;
+            }
+        }
     }
 }
 

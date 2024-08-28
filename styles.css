@@ -89,6 +89,24 @@ body {
 .homepage-text-wrapper .homepage-main-text {
   margin: 10px 20px 50px;
 }
+.homepage-text-wrapper .homepage-main-text a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.homepage-text-wrapper .homepage-main-text a:hover {
+  transform: scale(1.1);
+}
+.homepage-text-wrapper .homepage-main-text .homepage-reddrop {
+  text-decoration: none;
+  font-weight: 800px;
+  font-size: 55px;
+}
+.homepage-text-wrapper .homepage-main-text .homepage-reddrop.red-link {
+  color: #a31418;
+}
+.homepage-text-wrapper .homepage-main-text .homepage-reddrop.drop-link {
+  color: #ffbfd0;
+}
 
 .homepage-lists-wrapper {
   width: 100vw;
