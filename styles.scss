@@ -109,7 +109,22 @@ body {
     }
 }
 
-.contact-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+.homepage-lists-wrapper { 
+    width: 100vw;
+    margin-top: 20px;
+
+    .homepage-lists-header {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        font-weight: 800;
+        overflow: auto;
+    }
+
+    .homepage-lists {
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: capitalize;
+        font-size: 40px;
+    }
 }
